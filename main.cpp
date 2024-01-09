@@ -590,7 +590,8 @@ here. I'm only doing it to prevent compiler errors. ignore these lines and focus
 on the example code inside of the namespace  <SomeName> { }
 */
 
-namespace Part1E_Instructions {
+namespace Part1E_Instructions 
+{
 /*
 =================
 Part 1e - Step 1: Assignment and Example Info
@@ -603,7 +604,8 @@ Goal: Convert your 10 Plain-English UDTs into code.
 Task: define an empty struct below your plain-English UDT.
 - Do this for all 10 UDTs
 */
-namespace Part1E_Step1 {
+namespace Part1E_Step1 
+{
 /*
 
 my plain-English UDT:
@@ -639,7 +641,8 @@ Be sure to make the commit message meaningful.
 
 } // end namespace Part1E_Step1
 
-namespace Part1E_Step3 {
+namespace Part1E_Step3 
+{
 /*
 =================
 Part 1e - Step 3: Assignment
@@ -650,7 +653,8 @@ empty struct body.
     - Do this for all 10 UDTs
     */
 
-struct CarWash {
+struct CarWash 
+{
   // 5 properties:
   //     - number of vacuum cleaners
   //     - number of eco-friendly cleaning supplies
@@ -672,7 +676,8 @@ Be sure to make the commit message meaningful.
 */
 } // end namespace Part1E_Step3
 
-namespace Part1E_Step5 {
+namespace Part1E_Step5 
+{
 /*
 =================
 Part 1e - Step 5: Assignment
@@ -683,7 +688,8 @@ plain-english properties
 values
     - Do this for all 10 UDTs
  */
-struct CarWash {
+struct CarWash 
+{
   // number of vacuum cleaners
   int numVacuumCleaners = 3;
   // number of eco-friendly cleaning supplies
@@ -709,7 +715,8 @@ Be sure to make the commit message meaningful.
 */
 } // end namespace Part1E_Step5
 
-namespace Part1E_Step7 {
+namespace Part1E_Step7 
+{
 /*
 =================
 Part 1e - Step 7: Assignment
@@ -720,7 +727,8 @@ struct's body.
   - if your functions return something other than 'void', add a comment
 explaining what is being returned.  see the example code below.
   */
-struct CarWash {
+struct CarWash 
+{
   // number of vacuum cleaners
   int numVacuumCleaners = 3;
   // number of eco-friendly cleaning supplies
@@ -753,7 +761,8 @@ Be sure to make the commit message meaningful.
 */
 } // end namespace Part1E_Step7
 
-namespace Part1E_Step19 {
+namespace Part1E_Step19 
+{
 /*
 =================
 Part 1e - Step 9: Assignment
@@ -765,7 +774,8 @@ Part 1e - Step 9: Assignment
 this project.
     - this nested class MUST be related to the class it is nested inside
 */
-struct CarWash {
+struct CarWash 
+{
   // number of vacuum cleaners
   int numVacuumCleaners = 3;
   // number of eco-friendly cleaning supplies
@@ -821,7 +831,8 @@ Be sure to make the commit message meaningful.
 */
 } // namespace Part1E_Step19
 
-namespace Part1E_Step11 {
+namespace Part1E_Step11 
+{
 /*
 =================
 Part 1e - Step 11: Assignment
@@ -845,7 +856,8 @@ for it };
 Keep this in mind when you define the function parameter lists to use some of
 your User-Defined Types.
 */
-struct CarWash {
+struct CarWash 
+{
   // number of vacuum cleaners
   int numVacuumCleaners = 3;
   // number of eco-friendly cleaning supplies
@@ -857,7 +869,8 @@ struct CarWash {
   // number of cars serviced per day
   int numberOfCarsServiced = 10;
 
-  struct Car {
+  struct Car 
+{
     bool isAPickupTruck = false;
     float gasMileage = 26.2f;
     int year = 1985;
@@ -868,7 +881,7 @@ struct CarWash {
                   bool requiresDiesel = false);
     void breakDown(std::string failureType, bool requiresTow = false);
     int getMilesTraveledAnnually(bool includeUberLyftTrips);
-  };
+};
 
   // wash and wax car
   void washAndWaxCar(Car car); // a member function whose parameter is a UDT.
@@ -947,7 +960,8 @@ Be sure to make the commit message meaningful.
 */
 } // end namespace Part1E_Step11
 
-namespace Part1E_Step13 {
+namespace Part1E_Step13 
+{
 /*
 =================
 Part 1e - Step 13: Assignment
@@ -969,7 +983,8 @@ struct Radio {};        // UDT 8
 struct Applications {}; // UDT 9
 
 // UDT 10, from Part 1c example
-struct CellPhone {
+struct CellPhone 
+{
   Display display; // a member variabledeclaration of an instance of UDT 5
   Memory memory;   // a member variabledeclaration of an instance of UDT 6
   CPU cpu;         // a member variabledeclaration of an instance of UDT 7
