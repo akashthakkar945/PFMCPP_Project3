@@ -633,52 +633,142 @@ described in the Readme.MD
 
 struct Microphone
 {
-
+// 5 properties:
+//    1) Number of polar patterns (int)
+//    2) Number of polar patterns (int)
+//    3) Price (float)
+//    4) Brand Name (std::string)
+//    5) Year built (int)
+// 3 things it can do:
+//    1) Record audio
+//    2) Change polar patterns
+//    3) Adjust gain
 };
 
 struct ElectricGuitar
 {
-    
+// 5 properties:
+//     1) Number of strings (int)
+//     2) Number of frets (int)
+//     3) Length of neck (double)
+//     4) Weight (float)
+//     5) Type of wood (std::string)
+// 3 things it can do: 
+//     1) Play notes
+//     2) Adjust tone knob
+//     3) Plug in to amp
 };
 
 struct Gym
 {
-    
+// 5 properties:
+//     1) Number of barbells (int)
+//     2) Number of treadmills (int)
+//     3) Number of weight machines (int)
+//     4) Membership cost (float)
+//     5) Number of members (int)
+// 3 things it can do:
+//     1) Accept new members
+//     2) Schedule classes
+//     3) Send promotional material
 };
 
 struct Blender
 {
-    
+// 5 properties:
+//    1) Number of blades (int)
+//    2) Size of pitcher (float)
+//    3) Number of blend options (int)
+//    4) Loudness of machine (double)
+//    5) Length of cord (float)
+// 3 things it can do:
+//    1) Crush ice
+//    2) Blend food
+//    3) Detach lid
 };
 
 struct Display
 {
-    
+// 5 properties:
+//     1) Horizontal size in inches (float)
+//     2) Vertical size in inches (float)
+//     3) Refresh rate in FPS (int)
+//     4) Display material (std::string)
+//     5) Number of pixels (int)
+// 3 things it can do:
+//     1) Display images
+//     2) Change brightness
+//     3) Go to sleep
 };
 
 struct Keyboard
 {
-    
+// 5 properties:
+//     1) Number of keys (int)
+//     2) Language (std::string)
+//     3) Keyboard size in inches (float)
+//     4) Keyboard switch type (std::string)
+//     5) Keyboard brightness (float)
+// 3 things it can do: 
+//     1) Type text
+//     2) Enter hotkeys
+//     3) Change language
 };
 
 struct Trackpad
 {
-    
+// 5 properties:
+//     1) Number of touch inputs (int)
+//     2) Number of buttons (int)
+//     3) Trackpad horizontal size in inches (float)
+//     4) Trackpad vertical size in inches (float)
+//     5) Trackpad material (std::string)
+// 3 things it can do:
+//     1) Left Click
+//     2) Right Click
+//     3) Swipe
 };
 
 struct Storage
 {
-    
+// 5 properties:
+//      1) Storage capacity (double)
+//      2) Storage type (std::string)
+//      3) Storage speed (double)
+//      4) Number of storage modules (int)
+//      5) Storage interface (std::string)
+// 3 things it can do:
+//      1) Store files
+//      2) Retrieve files
+//      3) Delete files
 };
 
 struct Processor
 {
-    
+// 5 properties:
+//     1) Processor speed (double)
+//     2) Processor power consumption (double)
+//     3) Number of cores (int)
+//     4) Processor brand (std::string)
+//     5) Processor heat maximum in celsius (float)
+// 3 things it can do:
+//     1) Control data flow
+//     2) Modulate power 
+//     3) Execute instructions
 };
 
 struct Laptop
 {
-    
+// 5 properties:
+//     1) Display
+//     2) Keyboard
+//     3) Trackpad
+//     4) Storage
+//     5) Processor
+// 3 things it can do:
+//     1) Play games
+//     2) Take notes
+//     3) Watch videos
 };
 
 /*
