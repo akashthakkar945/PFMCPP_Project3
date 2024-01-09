@@ -631,6 +631,56 @@ Notice that the struct name 'CarWash' conforms with the Course Coding Standard,
 described in the Readme.MD
 */
 
+struct Microphone
+{
+
+};
+
+struct ElectricGuitar
+{
+    
+};
+
+struct Gym
+{
+    
+};
+
+struct Blender
+{
+    
+};
+
+struct Display
+{
+    
+};
+
+struct Keyboard
+{
+    
+};
+
+struct Trackpad
+{
+    
+};
+
+struct Storage
+{
+    
+};
+
+struct Processor
+{
+    
+};
+
+struct Laptop
+{
+    
+};
+
 /*
 =================
 Part 1e - Step 2: Commit
